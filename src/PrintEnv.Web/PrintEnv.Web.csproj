@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Using Include="$(RootNamespace).Environment" />
+  </ItemGroup>
+
 </Project>
